@@ -1,6 +1,9 @@
 from tkinter import *
 
 window = Tk() #line to create the main Window
+window.title("Converter")
+window.resizable(0,0)
+
 
 # All the widgets of the GUI goes in between these
 def kg_to():
